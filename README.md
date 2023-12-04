@@ -29,6 +29,9 @@ is synonymous to how optimization experiments are setup in pysot. To link GOMORS
 kindly look at how problems are defined in the test_problems.py python file. For further information please write to 
 me at taimoor.akhtar@gmail.com.
 
+## Toy SWAT Model
+GOMORS can also be used for watershed model calibration. A toy SWAT model is provided in "tbrook" subfolder. Moreover, an example of running an MO SWAT watershed model calibration using GOMORS is provided in water_experiments.py.
+
 ## Citing GOMORS
 If you use GOMORS, please cite our paper, [Akhtar, T., Shoemaker, C.A. Multi objective optimization of computationally expensive
 multi-modal functions with RBF surrogates and multi-rule selection. J Glob Optim 64, 17–32 (2016). 

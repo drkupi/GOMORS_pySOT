@@ -1,0 +1,85 @@
+Basin data           .bsn file 7/12/2007 12:00:00 AM ARCGIS-SWAT - SWAT interface
+Modeling Options: Land Area
+Water Balance:
+ 2.8150786088194    | SFTMP : Snowfall temperature [C]
+ -0.686882109427    | SMTMP : Snow melt base temperature [C]
+ 2.3700656231653    | SMFMX : Melt factor for snow on June 21 [mm H2O/C-day]
+           2.900    | SMFMN : Melt factor for snow on December 21 [mm H2O/C-day]
+ 0.3319689709840    | TIMP : Snow pack temperature lag factor
+           1.000    | SNOCOVMX : Minimum snow water content that corresponds to 100% snow cover [mm]
+           0.500    | SNO50COV : Fraction of snow volume represented by SNOCOVMX that corresponds to 50% snow cover
+               1    | IPET: PET method: 0=priest-t, 1=pen-m, 2=har, 3=read into model
+                    | PETFILE: name of potential ET input file
+ 0.7614996202648    | ESCO: soil evaporation compensation factor
+           1.000    | EPCO: plant water uptake compensation factor
+           3.000    | EVLAI : Leaf area index at which no evaporation occurs from water surface [m2/m2]
+           0.000    | FFCB : Initial soil water storage expressed as a fraction of field capacity water content
+Surface Runoff:
+               0    | IEVENT: rainfall/runoff code: 0=daily rainfall/CN
+               0    | ICRK: crack flow code: 1=model crack flow in soil
+ 1.6256864284019    | SURLAG : Surface runoff lag time [days]
+          1.2125    | ADJ_PKR : Peak rate adjustment factor for sediment routing in the subbasin (tributary channels)
+          3.0309    | PRF : Peak rate adjustment factor for sediment routing in the main channel
+       0.0039662    | SPCON : Linear parameter for calculating the maximum amount of sediment that can be reentrained during channel sediment routing
+          4.3231    | SPEXP : Exponent parameter for calculating sediment reentrained in channel sediment routing
+Nutrient Cycling:
+           2.250    | RCN : Concentration of nitrogen in rainfall [mg N/l]
+         0.02243    | CMN : Rate factor for humus mineralization of active organic nitrogen
+          20.000    | N_UPDIS : Nitrogen uptake distribution parameter
+        596.8741    | P_UPDIS : Phosphorus uptake distribution parameter
+           0.200    | NPERCO : Nitrogen percolation coefficient
+         56.0897    | PPERCO : Phosphorus percolation coefficient
+        356.0377    | PHOSKD : Phosphorus soil partitioning coefficient
+          5.6215    | PSP : Phosphorus sorption coefficient
+           0.050    | RSDCO : Residue decomposition coefficient
+Pesticide Cycling:
+           0.500    | PERCOP : Pesticide percolation coefficient
+Algae/CBOD/Dissolved Oxygen:
+               1    | ISUBWQ: subbasin water quality parameter
+Bacteria:
+           0.000    | WDPQ : Die-off factor for persistent bacteria in soil solution. [1/day]
+           0.000    | WGPQ : Growth factor for persistent bacteria in soil solution [1/day]
+           0.000    | WDLPQ : Die-off factor for less persistent bacteria in soil solution [1/day]
+           0.000    | WGLPQ : Growth factor for less persistent bacteria in soil solution. [1/day]
+           0.000    | WDPS : Die-off factor for persistent bacteria adsorbed to soil particles. [1/day]
+           0.000    | WGPS : Growth factor for persistent bacteria adsorbed to soil particles. [1/day]
+           0.000    | WDLPS : Die-off factor for less persistent bacteria adsorbed to soil particles. [1/day]
+           0.000    | WGLPS : Growth factor for less persistent bacteria adsorbed to soil particles. [1/day]
+         175.000    | BACTKDQ : Bacteria partition coefficient
+           1.070    | THBACT : Temperature adjustment factor for bacteria die-off/growth
+           0.000    | WOF_P: wash-off fraction for persistent bacteria on foliage
+           0.000    | WOF_LP: wash-off fraction for less persistent bacteria on foliage
+           0.000    | WDPF: persistent bacteria die-off factor on foliage
+           0.000    | WGPF: persistent bacteria growth factor on foliage
+           0.000    | WDLPF: less persistent bacteria die-off factor on foliage
+           0.000    | WGLPF: less persistent bacteria growth factor on foliage
+               0    | ISED_DET:
+Modeling Options: Reaches
+               0    | IRTE: water routing method 0=variable travel-time 1=Muskingum
+           0.000    | MSK_CO1 : Calibration coefficient used to control impact of the storage time constant (Km) for normal flow
+           3.500    | MSK_CO2 : Calibration coefficient used to control impact of the storage time constant (Km) for low flow
+           0.200    | MSK_X : Weighting factor controlling relative importance of inflow rate and outflow rate in determining water storage in reach segment
+               0    | IDEG: channel degradation code
+               1    | IWQ: in-stream water quality: 1=model in-stream water quality
+   basins.wwq       | WWQFILE: name of watershed water quality file
+           0.000    | TRNSRCH: reach transmission loss partitioning to deep aquifer
+           1.000    | EVRCH : Reach evaporation adjustment factor
+               0    | IRTPEST : Number of pesticide to be routed through the watershed channel network
+               0    | ICN
+           1.000    | CNCOEF
+           0.000    | CDN
+           0.000    | SDNCO
+           0.000    | BACT_SWF
+          10.000    | BACTMX
+           0.000    | BACTMINLP
+           0.000    | BACTMINP
+           0.000    | WDLPRCH
+           0.000    | WDPRCH
+           0.000    | WDLPRES
+           0.000    | WDPRES
+           0.000    | TB_ADJ
+           0.000    | DEPIMP_BSN
+           0.000    | DDRAIN_BSN
+           0.000    | TDRAIN_BSN
+           0.000    | GDRAIN_BSN
+           0.000    | CN_FROZ

@@ -1,0 +1,10 @@
+  FLOW_INcms              38      12
+  FLOW_INcms              38      12
+ FLOW_OUTcms              50      12
+     EVAPcms              62      12
+    TLOSScms              74      12
+  SED_INtons              86      12
+ SED_OUTtons              98      12
+SEDCONCmg/kg             110      12
+  ORGP_OUTkg             158      12
+  MINP_OUTkg             254      12

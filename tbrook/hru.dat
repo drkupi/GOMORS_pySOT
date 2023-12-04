@@ -1,0 +1,20 @@
+  PRECIPmm                43      10
+ SNOFALLmm                53      10
+ SNOMELTmm                63      10
+      ETmm                93      10
+  SW_ENDmm               113      10
+    PERCmm               123      10
+ DA_RCHGmm               143      10
+   DA_STmm               193      10
+SURQ_CNTmm               213      10
+   TLOSSmm               223      10
+    LATQmm               233      10
+    GW_Qmm               243      10
+ TMP_AVdgC               273      10
+SOLARMJ/m2               313      10
+ A-MNkg/ha               453      10
+ A-SNkg/ha               463      10
+ DNITkg/ha               513      10
+  NUPkg/ha               523      10
+ SEDPkg/ha               563      10
+NSURQkg/ha               573      10

@@ -1,0 +1,12 @@
+ .rte file Subbasin:3
+           8.558    | CHW2 : Main channel width [m]
+           0.459    | CHD : Main channel depth [m]
+           0.009    | CH_S2 : Main channel slope [m/m]
+           8.693    | CH_L2 : Main channel length [km]
+           0.050    | CH_N2 : Manning's nvalue for main channel
+           0.000    | CH_K2 : Effective hydraulic conductivity [mm/hr]
+          1.4836    | CH_EROD: Channel erodibility factor
+           1.0000   | CH_COV : Channel cover factor
+          18.646    | CH_WDR : Channel width:depth ratio [m/m]
+           0.000    | ALPHA_BNK : Baseflow alpha factor for bank storage [days]
+
